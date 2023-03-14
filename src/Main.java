@@ -1,69 +1,73 @@
 public class Main {
     public static void main(String[] args) {
-        var dog = 8.0;
-        System.out.println(dog);
-        var cat = 3.6;
-        System.out.println(cat);
-        var paper = 763789;
-        System.out.println(paper);
+        task1();
+        task2();
+        task3();
+        task4();
+        task5();
+        task6();
+        task7();
 
-        dog = dog + 4;
-        System.out.println(dog);
-        cat = cat + 4;
-        System.out.println(cat);
-        paper = paper + 4;
-        System.out.println(paper);
+    }
 
-        dog = dog - 3.6;
-        System.out.println(dog);
-        cat = cat - 1.6;
-        System.out.println(cat);
-        paper = paper - 7639;
-        System.out.println(paper);
+    public static void task1 () {
+        System.out.println("Задача 1");
+        int myVariable =5;
+        System.out.println("Значение переменной myVariable с типом int равно "+myVariable);
+        byte pineApple =125;
+        System.out.println("Значение переменной pineApple с типом byte равно " +pineApple);
+    }
 
-        var friend = 19.0;
-        System.out.println(friend);
-        friend = friend + 2;
-        System.out.println(friend);
-        friend = friend / 7;
-        System.out.println(friend);
+    public static void task2 () {
+        System.out.println("Задача 2");
+        double pivo = 27.12;
+        System.out.println(pivo);
+        long gamePower = 987_678_965_549l;
+        System.out.println(gamePower);
+        double tablePen = 2.786;
+        System.out.println(tablePen);
+        short whiteHorse = 569;
+        System.out.println(whiteHorse);
+        int blackWeight = -157;
+        System.out.println(blackWeight);
+        char haveMetal = 27897;
+        System.out.println(haveMetal);
+    }
 
-        var frog = 3.5;
-        System.out.println(frog);
-        frog = frog * 10;
-        System.out.println(frog);
-        frog = frog / 3.5;
-        System.out.println(frog);
-        frog = frog + 4;
-        System.out.println(frog);
+        public static void task3 () {
+            System.out.println("Задача 3");
+            int ludaPav = 23;
+            short annaSer = 27;
+            byte katyaAndr = 30;
+            long allList = 480;
+            var allPeople = (ludaPav+annaSer+katyaAndr);
+            var megaPivo = allList/allPeople;
+            System.out.println("На каждого ученика рассчитано " + megaPivo + " листов бумаги");
 
-        var liftingCapacity = 50;
-        var stuffWeight = 20;
-        var capacityLeft = liftingCapacity - stuffWeight;
-        System.out.println("Еще можно положить " + capacityLeft + " кг вещей");
+        }
 
-        var productsWeight = 2;
-        productsWeight = productsWeight - 8;
-        var overload = (stuffWeight + productsWeight) % liftingCapacity;
-        System.out.println("Перегруз на " + overload + " кг!");
+        public static void task4 () {
+        System.out.println("Задача 4");
+        int bottlles = 16;
+        int minutes = 2;
+        int botlspir = bottlles / minutes;
+        int botlkir = botlspir * 20;
+        int botlhour = botlkir * 3;
+        int botlday = botlhour * 24;
+        int botle3d = botlday * 3;
+        int botlmot = botle3d * 10;
+        System.out.println("За 20 минут машина произвела " + botlkir + " штук бутылок");
+    }
+    public static void task5 () {
+        System.out.println("Задача 5");
 
-        var Weightofoneboxer = 78.2;
-        var Weightofthesecondboxer = 82.7;
-        var PIVO = Weightofoneboxer + Weightofthesecondboxer;
-        System.out.println("Вес " + PIVO + " двух боксеров! " );
-        var VSE = (Weightofthesecondboxer - Weightofoneboxer);
-        System.out.println("Разница " + VSE + " кг в весе! " );
-        var NIF = (Weightofoneboxer + Weightofthesecondboxer) % PIVO;
-        System.out.println("Разница " + NIF + " делением! " );
+    }
+    public static void task6 () {
+        System.out.println("Задача 6");
 
-        var WorkPerson = 640;
-        var WorkonePerson = 8;
-        var person = WorkPerson / WorkonePerson;
-        System.out.println("Всего работников в компании " + person + " человек! ");
-        var newPerson = 94 ;
-        var total = (person + newPerson);
-        var hour = (WorkPerson / total);
-        System.out.println("Если в компании работает " + total + " человек,то всего " + hour +
-                 " часов работы может быть поделено между сотрудиками " );
+    }
+    public static void task7 () {
+        System.out.println("Задача 7");
 
-    }}
+    }
+}
